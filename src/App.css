@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+.App {
+  font-family: 'Fira Sans', sans-serif;
+
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo_container {
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  min-width: 407px;
+  min-height: 300px;
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+}
+
+.input_bar{ 
+  flex: 1;
+  margin-right: 6px;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.submit_btn {
+  width: 55px;
+  height: 55px;
+  font-size: 25px;
+}
+
+.note {
+  font-size: 12px;
+  margin: 0 6px;
+  color: rgb(104, 102, 102)
+}
+
+.list_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 36px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.info input {
+  width: 100%;
+  padding: 10px 6px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
+.btn_group{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.todo-item-status {
+  margin-left: 8px;
+  font-weight: 300;
+}
+
+.todo-item-title-completed {
+  text-decoration: line-through;
+  color: rgb(130, 130, 130);
+}
+
+.footer {
+  padding: 20px;
+  
+}
